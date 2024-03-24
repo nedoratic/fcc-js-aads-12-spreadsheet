@@ -4,6 +4,9 @@ const range = (start, end) =>
 		.fill(start)
 		.map((element, index) => element + index);
 
+// Character Range
+const charRange = (start, end) => range(start.charCodeAt(0), end.charCodeAt(0)).map((code) => String.fromCharCode(code));
+
 // Window Onload Functionality
 window.onload = () => {
 	const container = document.getElementById('container');
