@@ -15,6 +15,13 @@ const median = (nums) => {
 	return isEven(length) ? average([sorted[middle], sorted[middle + 1]]) : sorted[Math.ceil(middle)];
 };
 
+// Spreadsheet Functions Object
+const spreadsheetFunctions = {
+	sum,
+	average,
+	median,
+};
+
 // Range
 const range = (start, end) =>
 	Array(end - start + 1)
