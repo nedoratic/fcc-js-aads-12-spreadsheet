@@ -1,3 +1,6 @@
+// Is Even
+const isEven = (num) => num % 2 === 0;
+
 // Range
 const range = (start, end) =>
 	Array(end - start + 1)
