@@ -1,6 +1,9 @@
 // Is Even
 const isEven = (num) => num % 2 === 0;
 
+// Sum
+const sum = (nums) => nums.reduce((acc, el) => acc + el, 0);
+
 // Range
 const range = (start, end) =>
 	Array(end - start + 1)
