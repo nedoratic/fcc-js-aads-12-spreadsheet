@@ -1,3 +1,11 @@
+// Infix To Function Object
+const infixToFunction = {
+	'+': (x, y) => x + y,
+	'-': (x, y) => x - y,
+	'*': (x, y) => x * y,
+	'/': (x, y) => x / y,
+};
+
 // Is Even
 const isEven = (num) => num % 2 === 0;
 
